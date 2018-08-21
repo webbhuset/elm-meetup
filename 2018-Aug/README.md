@@ -22,7 +22,9 @@ Useful Elm resources:
 
 ### Introduction to FP and Elm
 
-Getting started on [Ellie app](https://ellie-app.com/375njwssZCra1)
+* Pure Functions
+* Function composition and application [Ellie](https://ellie-app.com/375njwssZCra1)
+* Algebraic Data Types
 
 
 ### Building UI with Style Elements
