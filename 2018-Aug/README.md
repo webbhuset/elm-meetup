@@ -2,28 +2,37 @@
 
 ## Agenda
 
+- Our experinces of switching to Elm
+- Group assignments:
+    * Introduction to FP and Elm
+    * Building UI with Style Elements
+    * Solve "Walk The Grid"
 
 ## Resources
 
 Useful Elm resources:
+
 - [elm-lang/core package reference](https://package.elm-lang.org/packages/elm-lang/core/5.1.1)
 - [elm-lang/html package reference](https://package.elm-lang.org/packages/elm-lang/html/2.0.0/Html)
 - [Elm official guide](https://guide.elm-lang.org/)
 - [Examples on elm-lang.org](http://elm-lang.org/examples)
 
 
-### Style Element
+## Group Assignments
+
+### Introduction to FP and Elm
+
+Getting started on [Ellie app](https://ellie-app.com/375njwssZCra1)
+
+
+### Building UI with Style Elements
+
 Try out rendering and styling with Style Elements: [Ellie code](https://ellie-app.com/36Rh75CJqDPa1)
 
 [Style Elements documentation on elm-package.org](https://package.elm-lang.org/packages/mdgriffith/stylish-elephants/6.0.2/Element)
 
 
-### Getting started
-
-Getting started on [Ellie app](https://ellie-app.com/375njwssZCra1)
-
-
-### Walk The Grid
+### Solve Walk The Grid
 
 You are on a two dimensional grid with two axis, **x** and **y**, where
 x and y are integers.
@@ -73,3 +82,4 @@ these questions:
 
 Assume that any valid string could be given as input.
 
+Walk the grid on [ellie-app.com](https://ellie-app.com/LkgBcvYHWMa1)
