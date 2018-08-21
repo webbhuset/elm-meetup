@@ -34,7 +34,9 @@ Try out rendering and styling with Style Elements: [Ellie code](https://ellie-ap
 [Style Elements documentation on elm-package.org](https://package.elm-lang.org/packages/mdgriffith/stylish-elephants/6.0.2/Element)
 
 
-### Solve Walk The Grid
+### Solve "Walk The Grid"
+
+#### Nominations
 
 You are on a two dimensional grid with two axis, **x** and **y**, where
 x and y are integers.
@@ -85,3 +87,11 @@ these questions:
 Assume that any valid string could be given as input.
 
 Walk the grid on [ellie-app.com](https://ellie-app.com/LkgBcvYHWMa1)
+
+Solve and optimize for:
+
+- Fastest execution
+- Fewest lines of code (most clever)
+- Most readable / understandable
+- Most reusable / modular
+
