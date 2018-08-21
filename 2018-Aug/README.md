@@ -36,7 +36,7 @@ Try out rendering and styling with Style Elements: [Ellie code](https://ellie-ap
 
 ### Solve "Walk The Grid"
 
-#### Nominations
+#### Problem description
 
 You are on a two dimensional grid with two axis, **x** and **y**, where
 x and y are integers.
@@ -86,9 +86,10 @@ these questions:
 
 Assume that any valid string could be given as input.
 
-Walk the grid on [ellie-app.com](https://ellie-app.com/LkgBcvYHWMa1)
+#### Code
 
-Solve and optimize for:
+Solve on [ellie-app.com](https://ellie-app.com/LkgBcvYHWMa1) and optimize for one of
+the following:
 
 - Fastest execution
 - Fewest lines of code (most clever)
