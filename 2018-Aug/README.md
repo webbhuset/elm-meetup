@@ -29,7 +29,9 @@ Useful Elm resources:
 
 ### Building UI with Style Elements
 
-Try out rendering and styling with Style Elements: [Ellie code](https://ellie-app.com/36Rh75CJqDPa1)
+Please style this ugly app: [Ellie code](https://ellie-app.com/36Rh75CJqDPa1)
+
+Simple examples of Style Element to play around with: [Ellie code](https://ellie-app.com/3788MtXLDRTa1)
 
 [Style Elements documentation on elm-package.org](https://package.elm-lang.org/packages/mdgriffith/stylish-elephants/6.0.2/Element)
 
