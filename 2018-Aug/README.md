@@ -23,7 +23,7 @@ Useful Elm resources:
 ### Introduction to FP and Elm
 
 * Syntax and Pure Functions.
-* Function composition and function application. [Follow along on Ellie](https://ellie-app.com/37YtJ4XC6bGa1)
+* Function composition and function application. [See examples](FunctionComposition.elm) [Try on Ellie](https://ellie-app.com/37YtJ4XC6bGa1)
 
 
 ### Building UI with Style Elements
