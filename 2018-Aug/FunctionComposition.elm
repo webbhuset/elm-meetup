@@ -41,17 +41,18 @@ main =
         )
 
 
-{-| Iterate over a list of numbers do a simple mathematical operation.
-    
-    In javascript, it would be something like this:
-    
+{-| Iterate over a list of numbers and do a simple mathematical operation.
+
+In javascript, it would be something like this:
+
     numbers.map(function(n) {
         return (n + 1) * 2 - 1;
     });
 
-    or using arrow functions:
-    
+or using arrow functions:
+
     numbers.map(n => (n + 1) * 2 - 1);
+
 -}
 example0 : List Int -> List Int
 example0 numbers =
@@ -59,6 +60,8 @@ example0 numbers =
 
 
 {-| Forward function application with lambdas.
+
+Let's split the calculation into discrete operations.
 
     numbers.map(n => n + 1)
            .map(n => n * 2)
@@ -71,6 +74,13 @@ example1 numbers =
         |> List.map (\n -> n + 1)
         |> List.map (\n -> n * 2)
         |> List.map (\n -> n - 1)
+        {- The |> (pipe operator) lets you write code that reads top-down.
+
+            with numbers
+                |> Add 1 to each element
+                |> Multiply each element by 2
+                |> Subtract one from each element
+        -}
 
 
 {-| Forward function composition with lambdas
@@ -81,8 +91,8 @@ example2 =
     List.map (\n -> n + 1)
         >> List.map (\n -> n * 2)
         >> List.map (\n -> n - 1)
-    
-    
+
+
 {-| Forward function composition with named functions
 using partial application (currying)
 
@@ -93,15 +103,13 @@ using partial application (currying)
     numbers.map(n => addTo(1, n))
            .map(n => multiplyBy(2, n))
            .map(n => addTo(-1, n));
-        
 -}
 example3 : List Int -> List Int
 example3 =
     List.map (addTo 1)
         >> List.map (multiplyBy 2)
         >> List.map (addTo -1)
-        
-        
+
 
 {-| Forward function composition of inner functions
 
@@ -117,7 +125,7 @@ example4 =
             >> addTo -1
         )
        {- You can also use function application instead of composition:
-        
+
             (\n ->
                 n
                 |> addTo 1
@@ -125,12 +133,11 @@ example4 =
                 |> addTo -1
             )
       -}
-        
-        
+
+
 {-| Backwards function composition of inner functions
 
 This resembles the order functions would be composed in imperative languages.
-
 
     numbers.map(n => addTo(-1, multiplyBy(2, addTo(1, n))));
 
@@ -139,13 +146,13 @@ example5 : List Int -> List Int
 example5 =
     List.map
         ( addTo -1 << multiplyBy 2 << addTo 1 )
-        
+
         -- (\n -> addTo -1 <| multiplyBy 2 <| addTo 1 n)
-    
-    
+
+
 {-| Using infix functions.
 
-An infix function (operator) can be converted to a 
+An infix function (operator) can be converted to a
 prefix function (how it normally works) by wrapping it in parenthesis.
 -}
 example6 : List Int -> List Int
@@ -156,11 +163,12 @@ example6 =
             >> (+) -1
         )
 
+
 addTo : Int -> Int -> Int
 addTo n1 n2 =
     n1 + n2
-    
-    
+
+
 multiplyBy : Int -> Int -> Int
 multiplyBy n1 n2 =
     n1 * n2
