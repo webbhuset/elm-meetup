@@ -24,7 +24,6 @@ Useful Elm resources:
 
 * Syntax and Pure Functions.
 * Function composition and function application. [Follow along on Ellie](https://ellie-app.com/37YtJ4XC6bGa1)
-* Algebraic Data Types.
 
 
 ### Building UI with Style Elements
