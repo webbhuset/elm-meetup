@@ -89,7 +89,7 @@ Assume that any valid string could be given as input.
 
 #### Code
 
-Solve on [ellie-app.com](https://ellie-app.com/LkgBcvYHWMa1) and optimize for one of
+Solve on [ellie-app.com](https://ellie-app.com/38sG6Bfx7wYa1) and optimize for one of
 the following:
 
 - Fastest execution
