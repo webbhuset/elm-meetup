@@ -18,3 +18,13 @@
 - [elm/html](https://package.elm-lang.org/packages/elm/html/latest/)
 - [elm/http](https://package.elm-lang.org/packages/elm/http/latest/)
 - [elm/json](https://package.elm-lang.org/packages/elm/json/latest/)
+
+#### Beginner
+
+
+#### Intermediate
+We are building a simple app that pulls random Chuck Norris quotes from an API
+and displays them!
+
+- [Ellie-app](https://ellie-app.com/3sb7WS5rwWba1) (Our starting point)
+- [API Documentation](https://api.chucknorris.io/)
