@@ -3,6 +3,7 @@
 ## Agenda
 
 - WebGL basics with Elm (Francesco Orsenigo)
+    * [Starting point](https://github.com/xarvh/elm-webgl-quickstart)
 - Coding session
     * Level Beginner: Basic Elm architecture and rendering Html (Browser.sandbox).
     * Level Intermediate: Ajax Requests and Events (Browser.element).
@@ -20,7 +21,7 @@
 - [elm/json](https://package.elm-lang.org/packages/elm/json/latest/)
 
 #### Beginner
-
+We will build a simple counter from scratch.
 
 #### Intermediate
 We are building a simple app that pulls random Chuck Norris quotes from an API
