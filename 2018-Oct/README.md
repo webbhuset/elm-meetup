@@ -2,6 +2,8 @@
 
 ## Agenda
 
+[slides](https://rawgit.com/webbhuset/elm-meetup/master/2018-Oct/index.html)
+
 - Our experiences with upgrading to 0.19
 - Coding session
     * Level Beginner: Basic Elm architecture and rendering Html (Browser.sandbox).
